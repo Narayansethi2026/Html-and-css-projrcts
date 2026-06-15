@@ -1,0 +1,135 @@
+*{
+  margin:0;
+  font-family: Arial;
+  border: border-box;
+}
+.navbar{
+  height:60px;
+  background-color: #0f1111;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+  padding:0 10px;
+
+}
+.nav-logo{
+  height:50px;
+  width: 100px;
+}
+.logo{
+  background-image:url(Amau\ -Logo.png);
+  background-size:cover;
+  height:50px;
+  width: 100px;
+}
+.border{
+  border: 2px solid transparent;
+}
+.border:hover{
+  border: 3px solid white;
+}
+
+/** box2 **/
+.add-first{
+  color:#cccccc;
+  font-size:0.85rem ;
+  margin-left:15px;
+
+}
+.add-second{
+  font-size:1rem;
+  margin: 3px;
+}
+.add-icon{
+  display:flex;
+  align-items: center;
+}
+/** box3 **/
+.nav-search{
+  display:flex;
+  background-color: red;
+  width:620px;
+  border-radius: 3px;
+}
+.search-select{
+  background-color: #f3f3f3;
+  width:50px;
+  text-align: center;
+  border-radius: 3px;
+  height:21px;
+}
+.search-input{
+  width: 20%;
+}
+/** box4 **/
+span{
+  font-size: 0.7rem;
+
+}
+.nav-second{
+  font-size:0.85
+}
+/** panal **/
+.panal{
+  height:39px;
+  background-color: #222f3d;
+  display: flex;
+  color:white;
+  align-items: center;
+  justify-content: space space-evenly;
+}
+.panal-ops p{
+  display: inline;
+  margin-left:10px;
+}
+.panal-ops{
+  width:71%;
+  font-size:0.85rem;
+}
+.panal-deals{
+  font-size:0.9rem;
+  font: weight 700px; ;
+}
+/** hero  section **/
+.hero-section{
+  background-image: url("main img.png");
+  height: 350px;
+  background-size:cover;
+  justify-content: center;
+  align-items:center
+
+
+}
+/** shop section  shop-section**/
+.shop-section{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: violet;
+}
+.box{
+  border:4px solid black;
+  height:400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+  
+
+
+
+}
+.box-img{
+  height: 350px;
+  padding: 20px 0px 15px;
+  margin-top:15px;
+  margin-top:15px;
+  background-size:cover;
+
+}
+.box-content{
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom: 10px;
+
+}
