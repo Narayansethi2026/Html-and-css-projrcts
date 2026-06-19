@@ -1,0 +1,56 @@
+body{
+    background:black;
+}
+
+@property --angle{
+    syntax:"<angle>";
+    initial-value:0deg;
+    inherits:false;
+}
+
+.box{
+    width:350px;
+    margin:50px auto;
+    padding:20px;
+
+    background:red;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+
+    position:relative;
+}
+
+/* Animation directly on .box */
+.box::before,
+.box::after{
+    content:"";
+    position:absolute;
+    inset:-4px;
+    border-radius:15px;
+
+    background:conic-gradient(
+        from var(--angle),
+        transparent 70%,
+        orange,
+        yellow,
+        orange
+    );
+
+    z-index:-1;
+    animation:spin 3s linear infinite;
+}
+
+.box::before{
+    filter:blur(20px);
+    opacity:.7;
+}
+
+@keyframes spin{
+    from{
+        --angle:0deg;
+    }
+    to{
+        --angle:360deg;
+    }
+}
