@@ -126,10 +126,11 @@ span{
     transition:0.2s linear;
 }
 .home-img img:hover{
-    font-size: 1.8rem;
+    transform:scale(1.05);
     font-weight: 500;
 }
 .social-icons a{
+    color:white;
     display:inline-flex;
     justify-content: center;
     align-items: center;
@@ -151,13 +152,13 @@ span{
 .btn{
     display:inline-block;
     padding: 1rem 2.8rem;
-    background-color: balck;
+    background-color: black;
     border-radius: 4rem;
     font-size:1.6rem;
     color: #b74b4b;
     letter-spacing:0.3rem;
     font-weight: 600;
-    border: 2px soild #b74b4b;
+    border:2px soild #b74b4b;
     transition:0.3s ease;
     cursor:pointer;
     display: flex;
@@ -177,22 +178,20 @@ span{
     font-weight:600;
     min-width:280px;    
 }
-.typing-text span::brfore{
+.typing-text span::before{
     content:"fullsatsck developer";
     color:#b74b4b;
     animation:words 20s infine;
 }
-typing-text span::after{
+.typing-text span::after{
     content:"";
     background-color: black;
     position:absolute;
     width: calc(100% + 8px);
     height:100%;
     border-left:3px solid red;
-    right:-8;
-    animation:cursor;
+    right:-8px;
     border-left: 3px solid black;
-    right:-8;
     animation:cursor 0.6s infinite;
 
 }
