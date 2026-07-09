@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color: flex;
+    justify-content: space-between;
+    font-family: arial;
+
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+
+}
+h1{
+    color:red;
+
+}
+button{
+    background-color: red;
+    color: white;
+    padding:10px 20px ;
+    border:none;
+}
+.banner{
+    text-align:center;
+    padding: 100px;
+
+}
+.movies{
+    display:flex;
+    gap:20px;
+    padding: 20px;
+
+}
+.card{
+    background-color: #333;
+    width:200px;
+    height:200px;
+    padding: 20px;
+}

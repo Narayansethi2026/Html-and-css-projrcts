@@ -1,28 +1,42 @@
-//conditinal statements
-// let age = 12;
-// let mode = "light";
-// let color;
+// let sum = 0;
+// let n = 100;
+// for (let i = 1; i <= n; i++) {
+//     sum = sum + 1;
+// }
+// console.log("sum =", sum);
+// for (let i =1; i <= 5; i++){
+//     console.log("i =", i)
+// }
+// let i = 1;
+// while( i<=5 ) {
+//     console.log("apna college");
+//     i++; 
+// }
+// let i = 20;
+// do {
+//     console.log("narayan colege");
+//     i++;
+// } while ( i<= 10);
+// strings
+// let str = "narayan";
+// let str2 = 'sairam';
+// console.log(str[]);
+// let obj = {
+//     item: "mouse",
+//     price: 120,
+// };
+// let output = `the cost of ${obj.item} is ${obj.price} ruppes`
+// console.log(output)
+// console.log("the cost of", obj.item, " is",obj.price, "ruppes");
 
-// if (mode === "dark"){
-//     color ="black";
-// }
-// if(mode === "light"){
-//     color = "white";
-// }
-// if(num % 2 === 0) {
-//     console.log("even");
-// } else {
-//     console.log("odd");
-// }
-// if(age > 18){
-//     console.log(" you can give the vote");
-// } else{
-//     console.log("sorry you can not give the vote")
 
-// }
-let age = 18;
- let result = age >= 18 ? "adult" : "no adult";
- console.log(result);
+//temlate literals
+// let sentence =  `addition = ${1+2+652}`;
+// console.log(sentence);
+// let str = "apna\nnarayan";
+// console.log(str.length);
+// let str ="   apna computer  js   0";
+// console.log(str.trim())l;
 
-       
+
 
