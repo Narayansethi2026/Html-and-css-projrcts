@@ -7,14 +7,30 @@
 body{
     background-color: flex;
     justify-content: space-between;
-    font-family: arial;
+    font-family: arial, asns-seif;
 
 }
 header{
     display:flex;
     justify-content: space-between;
-    padding:20px;
+    padding:20px 50px;
+    align-items: center;
+}
+nav{
+    display:flex;
+    gap:25px;
 
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+nav a:hover{
+    color:red;
+}
+header h1{
+    color:red;
+    font-size:40px;
 }
 h1{
     color:red;
@@ -26,10 +42,25 @@ button{
     padding:10px 20px ;
     border:none;
 }
-.banner{
+.info{
+    background-color: #555;
+}
+.banner {
     text-align:center;
     padding: 100px;
+    background-color: #222;
+    height: 450px;
 
+}
+.banner h2{
+    font-size:45px;
+}
+.banner p{
+    font-size:22px;
+    margin:20px;
+}
+.moveis-section h2{
+    margin: 30px 50px;
 }
 .movies{
     display:flex;
@@ -42,4 +73,13 @@ button{
     width:200px;
     height:200px;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+.card:hover{
+    transform:scale(1.05);
+    transition: 0.3s;
 }
