@@ -36,7 +36,21 @@
 // let str = "apna\nnarayan";
 // console.log(str.length);
 // let str ="   apna computer  js   0";
-// console.log(str.trim())l;
+// console.log(str.trim())
+// let marks = [97,82,76,64];
+// console.log(marks);
+// console.log(marks.length);//proporty
+
+// let heros = ["iroman", "thor", "hulk"];
+// console.log(heros);
+// let cars = ["wagnor", "m5", "scrpio", "swift", "xuv", "verna"];
+// for(let idx=0; idx < cars. length; idx++) {
+//     console.log(heros[4]);    
+// }
+//for of
+// for(let itme)
+
+
 
 
 
