@@ -172,6 +172,23 @@
 // }else {
 //     console.log(c);
 // }
+// function add(a,b){
+//     return a+b;
+// }
+// let result=add(5,8);
+// console.log(result);
+// function add(a,b){
+//     console.log(a+b);    
+// }
+// let x=add(5,6);
+// console.log(x);
+function add(a,b){
+    return a+b;
+}
+let result=add(5,5)
+console.log(result)
+
+
 
 
 
