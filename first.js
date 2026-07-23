@@ -182,12 +182,46 @@
 // }
 // let x=add(5,6);
 // console.log(x);
-function add(a,b){
-    return a+b;
-}
-let result=add(5,5)
-console.log(result)
+// function add(a,b){
+//     return a+b;
+// }
+// let result=add(5,5)
+// console.log(result)
+// function laptop() {
+//     console.log("narayan")
+    
+// }
+// laptop();
+// function add(a, b) {
+//     return a + b;
 
+// }
+// console.log(add(5, 3));
+// function square(n) {
+//     return n * n;
+// }
+// function isEven(n){
+//     return n % 2 === 0;
+// }
+// const multiply = function(a, b) {
+//     return a * b;
+// };
+// const divide = (a, b) => a/b;
+// function outer() {
+//  let count = 0;
+//     return function inner() {//outer function
+//         count++;
+//         return count;
+//     };
+// }
+// const counter = outer();
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+Function displaydata(){
+    document.write("welcome to laptop")
+}
+displaydata()
 
 
 
