@@ -224,7 +224,34 @@
 // function showMessage() {
 //     document.getElementById("message").innerHTML = "🎉 Thanks darling!";
 // }
-document.querySelector("h1")
+//  var a = document.querySelector("button")
+//  a.addEventListener("click",function(){
+//     console.log("hello")
+//     a.innerHTML = "just goal pe focous karo"
+// a.style.color = "black"
+// a.style.backgroundColor = "yellow"
+//  })
+// //  console.log(a);
+// --------small project-------
+var blub = document.querySelector("#blub")
+var btn = document.querySelector("button")
+
+var kye = 0
+
+btn.addEventListener("click", function () {
+    if(kye == 0){
+         blub.style.backgroundColor = "orange"
+         console.log("narayan")
+         kye = 1
+    }else{
+        blub.style.backgroundColor = "transparent"
+         console.log("narayan")
+         kye = 0
+        
+
+    }
+})
+
 
 
 
