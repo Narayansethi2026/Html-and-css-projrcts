@@ -218,10 +218,13 @@
 // console.log(counter());
 // console.log(counter());
 // console.log(counter());
-Function displaydata(){
-    document.write("welcome to laptop")
-}
-displaydata()
+// function showMessage() {
+//     document.getElementById("message").innerHTML = "🎉 Thanks!";
+// }
+// function showMessage() {
+//     document.getElementById("message").innerHTML = "🎉 Thanks darling!";
+// }
+document.querySelector("h1")
 
 
 
